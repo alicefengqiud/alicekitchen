@@ -1,0 +1,241 @@
+*{
+    font-family: "Microsoft YaHei";
+    color:#666;
+}
+a:hover{
+    text-decoration: none;
+}
+.ak-wrapper{
+    background:rgba(198,240,250,0.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-bottom:-90%;
+}
+.ak-wrapper .navbar-toggle{
+    background:#007cb2;
+}
+.ak-wrapper .icon-bar{
+    background:#fff;
+}
+.ak-nav a{
+    font-size:18px;
+}
+@media screen and (max-width: 767px){
+    .navbar-brand img{
+        max-width:80%;
+    }
+    .carousel{
+        margin-top:12%;
+    }
+}
+@media screen and (max-width: 991px) and (min-width:768px){
+    .navbar-brand img{
+        max-width:90%;
+    }
+    .carousel{
+        margin-top:7%;
+    }
+}
+@media screen and (min-width: 992px){
+    .carousel{
+        margin-top:4%;
+    }
+}
+/*分割线 */
+.ak-divider{
+    margin:6% 0;
+}
+/*about-me*/
+.ak-about,.ak-slideCont{
+    text-align: center;
+    margin:4% 0 4% 0;
+}
+
+.ak-about{
+    position:relative;
+}
+.ak-about img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.ak-about h2{
+    color:#bbb;
+    position: absolute;
+    top:50%;
+    left:50%;
+
+}
+.ak-about h3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:#ED4914;
+    font-weight: bold;
+}
+.ak-about-t p{
+    margin-top:3%;
+    color:#888;
+    text-align:center;
+}
+
+.ak-sp h4{
+    color:#555;
+    font-weight: bold;
+}
+@media screen and (max-width: 767px){
+    .ak-about h2{
+        margin-left:-10%;
+        margin-top:-4%;
+        font-size: 18px;
+    }
+    .ak-about h3{
+        margin-left:-6%;
+        margin-top:0.5%;
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 992px){
+    .ak-about img{
+        margin-left:17%;
+    }
+    .ak-about h2{
+        margin-left:-10%;
+        margin-top:-3%;
+    }
+    .ak-about h3{
+        margin-left:-7%;
+        margin-top:0.5%;
+    }
+}
+@media screen and (max-width: 991px) and (min-width:768px){
+    .ak-about h2{
+        margin-left:-12%;
+        margin-top:-4%;
+        font-size: 26px;
+    }
+    .ak-about h3{
+        margin-left:-7%;
+        margin-top:1%;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .ak-sp{
+        padding:0;
+    }
+    .ak-sp h2{
+        font-size: 0.8em;
+    }
+    .ak-sp p{
+        font-size: 0.5em;
+    }
+}
+.ak-sp{
+    padding:5%;
+}
+.ak-sp dl dt{
+    margin-bottom: 6%;
+}
+/*产品介绍*/
+.ak-pro-box{
+    margin:0 auto;
+    padding:3% 0;
+    background:#93B2B9;
+}
+.ak-product,.ak-product p{
+    color:#fff;
+}
+.ak-product h3{
+    color:#A5360A;
+    font-weight: bold;
+    padding:3% 3% 2% 0;
+    margin-right:65%;
+    margin-bottom: 2%;
+    border-bottom: 2px solid #fff;
+}
+.ak-product p{
+    text-indent:2em;
+    font-size: 1.1em;
+    padding-bottom: 1%;
+}
+.ak-product h3,.ak-product p{
+    margin-left:10%;
+}
+.ak-jz img{
+    box-shadow: 0 0 10px #000;
+}
+@media screen and (max-width: 767px) {
+    .ak-product h3{
+        font-size: 1.5em;
+        margin-right:50%;
+        margin-left:0;
+    }
+    .ak-product p{
+        margin-left:0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .ak-jz img{
+        margin-top:13%;
+        max-width: 100%;
+    }
+    .ak-product h3{
+        font-size: 1.5em;
+        margin-right:50%;
+        margin-left:0;
+    }
+    .ak-product p{
+        margin-left:0;
+    }
+}
+@media screen  and (min-width: 992px) {
+    .ak-product p,.ak-product h3{
+        margin-left:5%;
+    }
+}
+.ak-spe-box{
+    text-align: center;
+}
+
+.ak-spe img{
+    padding:0.4em;
+    border:1px solid #ddd;
+    background:#fff;
+    max-width:100%;
+    margin-bottom: 3%;
+}
+.ak-spe-text p{
+    padding:0.4em;
+    background:#00B8EE;
+    color:#fff;
+    font-weight: bold;
+}
+.ak-special{
+    margin-bottom: 5%;
+}
+.ak-deli{
+    text-align:center;
+}
+.ak-deli dl{
+    margin:3% auto;
+    padding:4%;
+    background:#fff;
+    border:1px solid #ddd;
+    box-shadow: 0 0 5px #ccc;
+    float: left;
+}
+
+.ak-deli img{
+    margin-bottom:5%;
+    max-width: 100%;
+}
+.ak-deli .ak-waterfall dd .ak-deli-cm{
+    background:#F6AB00;
+    padding:3%;
+    color:#fff;
+
+}

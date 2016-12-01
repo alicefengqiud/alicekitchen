@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alice Kitchen</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/aliceKitchen.css"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- 响应式导航条头部 -->
+    <div class="navbar narbar-default navbar-fixed-top ak-wrapper">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    <img class="img-responsive" src="img/logo.png" alt=""/>
+                </a>
+                <a href="#col" class="navbar-toggle" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+            </div>
+            <div id="col" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right ak-nav">
+                    <li class="active">
+                        <a href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="#ak-deli">美味佳肴</a>
+                    </li>
+                    <li>
+                        <a href="#ak-special">特别推荐</a>
+                    </li>
+                    <li>
+                        <a href="#ak-about">关于我</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 响应式轮播广告 -->
+    <div class="carousel slide" data-interval="3000" data-ride="carousel" id="ad1">
+        <!-- 轮播广告的内部 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/banner1.png" alt=""/>
+            </div>
+            <div class="item">
+                <img src="img/banner2.png" alt=""/>
+            </div>
+            <div class="item">
+                <img src="img/banner3.png" alt=""/>
+            </div>
+
+        </div>
+        <!-- 轮播广告的外部 -->
+        <a href="#ad1" data-slide="prev" class="carousel-control left">
+            <span  class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#ad1" data-slide="next" class="carousel-control right">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        <!--  序号指示器 -->
+        <ul class="carousel-indicators">
+            <li data-slide-to="0" data-target="#ad1" class="active"></li>
+            <li data-slide-to="1" data-target="#ad1"></li>
+            <li data-slide-to="2" data-target="#ad1"></li>
+        </ul>
+    </div>
+    <!-- 主体内容 -->
+    <div class="ak-main">
+        <div class="container">
+            <!-- 关于AliceKitchen -->
+            <div class="ak-about" id="ak-about">
+                <img  src="img/about_me.png" alt=""/>
+                <h2>ABOUT ME</h2>
+                <h3>关于我</h3>
+            </div>
+            <div class="ak-about-t">
+                <p>主要制作“中餐 西餐 小吃 餐饮”等美食。Alice尊崇“踏实、拼搏、责任的个人精神，开创分享理念，创造良好的美食环境，以全新的制作模式，周到的服务...
+            </div>
+            <!-- 主要食品介绍 -->
+            <div class="ak-slideCont">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="ak-sp">
+                            <dl>
+                                <dt><img src="img/about_zc.png" alt=""/></dt>
+                                <dd><h4>中餐美味</h4></dd>
+                                <dd><p>色、香、味、意、形、养、煎、焖、煮、蒸、炒</p></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="ak-sp">
+                            <dl>
+                                <dt><img src="img/about_xc.png" alt=""/></dt>
+                                <dd><h4>西餐高档</h4></dd>
+                                <dd><p>使用橄榄油、黄油、番茄酱、沙拉酱等调味料</p></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="ak-sp">
+                            <dl>
+                                <dt><img src="img/about_xchi.png" alt=""/></dt>
+                                <dd><h4>小吃独特</h4></dd>
+                                <dd><p>宴席间的点缀或者早点、夜宵的主要食品</p></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="ak-sp">
+                            <dl>
+                                <dt><img src="img/about_yp.png" alt=""/></dt>
+                                <dd><h4>餐饮名店</h4></dd>
+                                <dd><p>饭庄、酒楼、餐厅、快餐店、面馆、饮品店</p></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ak-pro-box">
+            <div class="container">
+                <!-- 产品1  -->
+                <div class="media">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <a href="#" class="media-left ak-jz">
+                                <img src="img/jiaozi.png" alt=""/>
+                            </a>
+                        </div>
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <div class="media-body ak-product">
+                                <h3 class="media-heading">莲藕肉馅饺子</h3>
+                                <p>好的事物能够保持你的健康</p>
+                                <p>饺子，原名“娇耳”，是中国的古老传统面食之一，源于中原宛城，距今已有一千八百多年的历史了。饺子深受中国广大人民的喜爱，是中国北方大部分地区每年春节必吃的年节食品，在许多省市也有冬至节吃饺子的习惯。在东北有句民谚：“舒服不如倒着，好吃不如饺子。”足见东北人对饺子的喜爱。</p>
+                                <p>而美味又健康多汁的莲藕肉馅饺子，是我的最爱，相隔千里终团圆、共坐檀桌前。举筷入口皆思念、同衬此时意。莫道离别愁几许、一饺此中揽。来年早归喜几多、吃饺话团圆。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ak-special" id="ak-special">
+            <div class="container">
+                <!-- 特别推荐 -->
+                <div class="ak-about">
+                    <img  src="img/about_me.png" alt=""/>
+                    <h2>SPECIAL ME</h2>
+                    <h3>特别推荐</h3>
+                </div>
+                <div class="ak-spe-box">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="ak-spe">
+                                <img src="img/special_5.png" alt=""/>
+                                <div class="ak-spe-text">
+                                    <p>爆炒田螺</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="ak-spe">
+                                <img src="img/special_6.png" alt=""/>
+                                <div class="ak-spe-text">
+                                    <p>蒜苗腊肉</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="ak-spe">
+                                <img src="img/special_8.png" alt=""/>
+                                <div class="ak-spe-text">
+                                    <p>蒜台肉丝</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="ak-spe">
+                                <img src="img/special_7.png" alt=""/>
+                                <div class="ak-spe-text">
+                                    <p>凉拌茄子</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ak-pro-box">
+            <div class="container">
+                <!-- 产品1  -->
+                <div class="media">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12 col-md-push-8">
+                            <a href="#" class="media-left ak-jz">
+                                <img src="img/feichang.png" alt=""/>
+                            </a>
+                        </div>
+                        <div class="col-md-8 col-sm-6 col-xs-12 col-md-pull-4">
+                            <div class="media-body ak-product">
+                                <h3 class="media-heading">干锅肥肠</h3>
+                                <p>重庆人的最爱</p>
+                                <p>干锅肥肠是一道汉族名菜，在湖南、湖北、江西、四川、重庆一带较流行。肥肠劲道十足，色泽鲜美，色泽红亮，质地软烂，滋味鲜香，回味悠长。味道相当诱惑，不老不嫩，又辣又香，超级过瘾，绝对是米饭的杀手。</p>
+                                <p>用猪大肠治疗大肠病变，有润肠治燥，调血痢脏毒的作用，古代医家常用于痔疮、大便出血或血痢。如《仁斋直指方》和《奇效良方》中的猪脏丸，《本草蒙筌》中的连壳丸等，皆是用于治疗直肠病变的名方，其中均用到猪大肠。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ak-special" id="ak-deli">
+            <div class="container">
+                <!-- 特别推荐 -->
+                <div class="ak-about">
+                    <img  src="img/about_me.png" alt=""/>
+                    <h2>DELICIOUS</h2>
+                    <h3>美味佳肴</h3>
+                </div>
+                <div class="ak-deli">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3">
+                            <dl class="ak-waterfall">
+                                <dt><img  class="img-responsive" src="img/delicious_1.png" alt=""/></dt>
+                                <dd><p>生姜、大蒜、香油、酱油、盐、小葱、鸡精(糖)、青椒、鸡脖</p></dd>
+                                <dd><h3 class="ak-deli-cm">辣炒鸡脖</h3></dd>
+                            </dl>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <dl class="ak-waterfall">
+                                <dt><img class="img-responsive" src="img/delicious_2.png" alt=""/></dt>
+                                <dd><p>生姜、大蒜、香油、酱油、盐、小葱、辣酱、鸡精(糖)、豆瓣酱、面、青菜、肉末、胡萝卜</p></dd>
+                                <dd><h3 class="ak-deli-cm">重庆炸酱面</h3></dd>
+                            </dl>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <dl class="ak-waterfall">
+                                <dt><img class="img-responsive" src="img/delicious_3.png" alt=""/></dt>
+                                <dd>生姜、大蒜、香油、酱油、盐、小葱、鸡精(糖)、辣酱(自制)、土豆、芸豆、猪肉</dd>
+                                <dd><h3 class="ak-deli-cm">土豆芸豆红烧肉</h3></dd>
+                            </dl>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <dl class="ak-waterfall">
+                                <dt>
+                                    <img class="img-responsive" src="img/delicious_4.png" alt=""/>
+                                </dt>
+                                <dd>生姜、大蒜、香油、酱油、盐、小葱、鸡精(糖)、鸡肉、土豆</dd>
+                                <dd><h3 class="ak-deli-cm">新疆大盘鸡</h3></dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-xs-12">
+                        <p class="text-center">©copyright 归 <a href="#">aliceKitchen</a> 所有 请勿转载</p>
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <p class="text-center"><a href="#">返回顶部</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aliceKitchen.js"></script>
+    <!--<script>-->
+        <!--(function () {-->
+            <!--var s = document.createElement("script");-->
+            <!--s.onload = function () {-->
+                <!--bootlint.showLintReportForCurrentDocument([]);-->
+            <!--};-->
+            <!--s.src = "js/bootlint.js";-->
+            <!--document.body.appendChild(s)-->
+        <!--})();-->
+    <!--</script>-->
+</body>
+</html>
